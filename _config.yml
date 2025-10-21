@@ -1,5 +1,15 @@
-remote_theme: pages-themes/time-machine@v0.2.0
+title: "Sarvesh Dhond | Data Analyst & Operations Specialist"
+description: "Data-driven professional with 5+ years in Finance & Insurance | Skilled in Python, SQL, Tableau, and Power BI"
+theme: jekyll-theme-cayman-dark
+show_downloads: false
+github:
+is_project_page: false
+social_links:
+linkedin: https://linkedin.com/in/sd1997
+github: https://github.com/SarveshDhond
+Include custom CSS
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-Title: Sarvesh Dhond
-Description: Data Scientist | Data Analyst
+jekyll-seo-tag
+jekyll-feed
+include:
+assets/css/style.css
