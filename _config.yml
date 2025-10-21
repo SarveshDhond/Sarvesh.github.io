@@ -20,35 +20,42 @@ author:
 resume:
   # A brief profile/summary about you
   summary: |
-    A skilled data analyst with extensive experience in business operations, data analysis, and machine learning. 
-    Adept at transforming data into actionable insights to drive business strategy and enhance decision-making processes. 
-    Strong expertise in SQL, Python, Tableau, Power BI, and predictive modeling to solve complex business problems.
+    I am a data-driven professional with expertise in business operations, data analysis, and machine learning. I specialize in transforming complex datasets into actionable insights that drive business strategies. My experience spans across predictive modeling, SQL, Python programming, and visualizing data with Tableau and Power BI. I’m passionate about identifying trends and creating data-driven solutions that optimize decision-making processes.
 
   # Key Skills Section
   skills:
-    - "Python"
-    - "SQL"
-    - "Tableau"
-    - "Power BI"
-    - "Excel"
-    - "Machine Learning"
-    - "Data Visualization"
-    - "Business Intelligence"
-    - "Predictive Analytics"
-    - "Operations Management"
+    - "Python (Pandas, Numpy, TensorFlow)"
+    - "SQL (MySQL, PostgreSQL)"
+    - "Data Visualization (Tableau, Power BI)"
+    - "Machine Learning (Scikit-learn, XGBoost)"
+    - "Predictive Analytics & Data Science"
+    - "Business Intelligence & Reporting"
     - "Data Cleansing & Preprocessing"
+    - "Excel (Advanced Functions, VBA)"
+    - "Data Engineering (ETL processes)"
 
   # Education Section
   education:
     - institution: "Fanshawe College"
       degree: "Post-graduate Diploma in Marketing Management"
       duration: "Sept 2019 – Apr 2020"
+      description: |
+        Gained advanced knowledge of marketing strategies, consumer behavior, and market analysis. 
+        Developed skills in digital marketing, data-driven decision making, and marketing analytics.
+
     - institution: "Fleming College"
       degree: "Post-graduate Diploma in Business Management"
       duration: "Jan 2019 – Aug 2019"
+      description: |
+        Focused on business strategy, operations management, and financial analysis. 
+        Developed hands-on experience in project management, team leadership, and business performance optimization.
+
     - institution: "University of Mumbai"
       degree: "Bachelor’s Degree in Accounting"
       duration: "Jun 2015 – Jul 2018"
+      description: |
+        Built foundational knowledge in accounting principles, financial reporting, and auditing. 
+        Gained skills in financial analysis and business operations, preparing for a career in business management.
 
   # Work Experience Section
   experience:
@@ -58,9 +65,9 @@ resume:
       start_date: "Feb 2024"
       end_date: "Sep 2025"
       description: |
-        - Collaborated with the Data Science team to clean and pre-process data, increasing prediction accuracy by 15%.
-        - Designed complex SQL queries to extract and aggregate multiple datasets, improving the speed of delivering business insights.
-        - Conducted exploratory data analysis using Pandas and Numpy, then presented findings in interactive Tableau and Power BI dashboards.
+        - Led data analysis initiatives in collaboration with the Data Science team to identify and assess risk patterns, improving prediction accuracy by 15%.
+        - Designed and optimized SQL queries to extract, manipulate, and aggregate multiple datasets, speeding up business insight delivery by 20%.
+        - Performed exploratory data analysis (EDA) on large datasets using Python (Pandas, Numpy) and created actionable dashboards using Tableau and Power BI for better decision-making.
 
     - title: "Data Analyst"
       company: "Cooperators Insurance"
@@ -68,9 +75,9 @@ resume:
       start_date: "Jun 2023"
       end_date: "Feb 2024"
       description: |
-        - Automated data cleaning tasks with Python and Excel Macros, reducing the time spent on data preprocessing by 60%.
-        - Aggregated data from AS400 and SAP systems using advanced SQL queries for deeper business insights.
-        - Developed Tableau dashboards for visualizing commercial insurance data trends and business performance.
+        - Automated complex data cleaning tasks using Python and Excel macros, reducing backlog by 60%.
+        - Aggregated and analyzed large datasets from multiple systems (AS400, SAP) using advanced SQL queries to uncover key business insights.
+        - Created interactive Tableau dashboards for commercial insurance data analysis, enhancing the reporting capabilities for the leadership team.
 
     - title: "Insurance Advisor"
       company: "Cooperators Insurance"
@@ -78,9 +85,9 @@ resume:
       start_date: "Jun 2022"
       end_date: "Jun 2023"
       description: |
-        - Provided tailored insurance recommendations for clients based on their specific needs and goals.
-        - Managed and tracked sales activities and customer referrals using Salesforce and Excel.
-        - Assisted in the transition of legacy systems to Salesforce CRM to streamline customer interaction processes.
+        - Provided tailored insurance solutions to clients based on a deep understanding of their financial goals.
+        - Used Salesforce to track customer interactions and sales cycles, contributing to a 30% increase in referrals.
+        - Collaborated with IT teams to assist in migrating legacy systems to Salesforce, improving the CRM workflow.
 
     - title: "Financial Service Representative"
       company: "Momentum Financial"
@@ -88,42 +95,43 @@ resume:
       start_date: "Jun 2021"
       end_date: "Jun 2022"
       description: |
-        - Ensured customer satisfaction by maintaining a high service quality with a 90%+ satisfaction rate.
-        - Conducted audits on loan records, cheques, and cash handling, ensuring compliance with financial regulations.
-        - Monitored in-store KPIs and sales targets using Excel to drive performance and meet organizational goals.
+        - Achieved customer satisfaction scores of 90%+ by providing exceptional customer service and resolving financial queries.
+        - Conducted audits of loans, cheques, and cash-handling records, ensuring compliance with financial standards.
+        - Managed key performance indicators (KPIs) and goals for store operations, utilizing Excel to track performance and generate reports.
 
   # Projects Section
   projects:
     - title: "Telco Customer Churn Analysis"
       description: |
-        Analyzed customer data to identify churn drivers, such as service issues and customer demographics. 
-        Developed a predictive model using TensorFlow, achieving 80% accuracy in forecasting churn risk.
-        Created visualizations with Seaborn and Matplotlib to identify patterns and high-risk segments.
+        Analyzed historical telecom customer data to identify churn drivers like service quality, customer tenure, and plan type. 
+        Built a TensorFlow model with an 80% accuracy rate in predicting customer churn, enabling proactive retention strategies.
+        Visualized high-risk customer segments using Seaborn and Matplotlib, informing customer retention campaigns.
       technologies:
         - "Python"
         - "TensorFlow"
+        - "Pandas"
         - "Numpy"
-        - "Seaborn"
         - "Matplotlib"
+        - "Seaborn"
 
     - title: "Credit Risk Prediction Model"
       description: |
-        Built multiple machine learning models (Random Forest, XGBoost, Decision Trees) on credit data to predict applicant risk. 
-        Successfully identified key risk drivers and achieved 77% prediction accuracy using Random Forest. 
-        Handled missing data, encoded categorical variables, and normalized numerical features to improve model performance.
+        Built multiple machine learning models (Random Forest, XGBoost) on credit risk data to predict the likelihood of loan applicants defaulting. 
+        Used feature engineering techniques such as encoding categorical variables and normalizing numerical data. 
+        Achieved 77% accuracy with Random Forest and provided key insights into factors influencing credit risk.
       technologies:
         - "Python"
+        - "Scikit-learn"
         - "Pandas"
         - "Numpy"
-        - "Scikit-learn"
         - "Matplotlib"
         - "Seaborn"
 
     - title: "Toronto Collision Analysis"
       description: |
-        Analyzed collision data from the Toronto Police Service to identify patterns and high-risk areas for accidents. 
-        Produced severity scoring for accident zones, identifying peak accident hours and the most vulnerable road users.
-        Findings were presented in a Tableau dashboard for better decision-making and risk mitigation.
+        Analyzed accident data from the Toronto Police Service to uncover high-risk zones and accident hotspots. 
+        Produced severity scores for accident-prone areas, and identified vulnerable road users and peak accident times. 
+        Presented findings through an interactive Tableau dashboard that was used by city planners for improved traffic safety.
       technologies:
         - "Python"
         - "SQL"
@@ -131,9 +139,9 @@ resume:
 
     - title: "Retail Sales Forecasting Model"
       description: |
-        Developed a time-series forecasting model for retail sales using ARIMA and LSTM networks. 
-        The model predicted monthly sales with a high degree of accuracy and helped optimize inventory levels.
-        Visualized the forecasting results with Matplotlib to present trends and accuracy assessments.
+        Developed a time-series forecasting model to predict future retail sales using ARIMA and LSTM networks. 
+        The model accurately predicted monthly sales trends and helped the retail team optimize inventory levels. 
+        Visualized the forecasting results and performance metrics using Matplotlib.
       technologies:
         - "Python"
         - "Pandas"
@@ -144,8 +152,8 @@ resume:
 
     - title: "Employee Performance Prediction"
       description: |
-        Created a machine learning model to predict employee performance based on historical data, including reviews, tenure, and other KPIs. 
-        Implemented a Random Forest Classifier to predict performance outcomes and provide insights into retention strategies.
+        Created a machine learning model to predict employee performance and turnover based on historical data (performance reviews, tenure, etc.). 
+        Utilized Random Forest and provided actionable insights into employee retention and performance management strategies.
       technologies:
         - "Python"
         - "Scikit-learn"
@@ -166,6 +174,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
+
+# SEO and Meta Tags Plugin (Optional)
+plugins:
+  - jekyll-seo-tag
+
 
 # SEO and Meta Tags Plugin (Optional)
 plugins:
