@@ -1,31 +1,55 @@
 # Basic Site Settings
 title: "Sarvesh Dhond"
 email: "sarveshdhond@outlook.com"
-description: "Resume of Sarvesh Dhond - Data Analyst & Operations Expert"
+description: "Data Analyst & Business Operations Expert"
 url: "https://sarveshdhond.github.io"  # Replace with your actual GitHub Pages URL
-baseurl: "" # Keep empty if deploying to username.github.io
+baseurl: ""  # Leave empty for username.github.io
 
-# Author and contact details
+# Author Details
 author:
   name: "Sarvesh Dhond"
+  title: "Data Analyst & Business Operations Expert"
   email: "sarveshdhond@outlook.com"
   location: "Toronto, ON"
   linkedin: "https://linkedin.com/in/sd1997"
   github: "https://github.com/SarveshDhond"
+  twitter: "https://twitter.com/yourhandle"  # Optional, remove if not using Twitter
+  personal_website: "https://sarveshdhond.com"  # Optional, remove if not using a personal website
 
-# Resume Settings
+# Resume Information
 resume:
-  title: "Data Analyst & Business Operations Expert"
-  summary: "Data-driven analyst with expertise in operations, data analysis, and predictive models. Passionate about uncovering trends and helping businesses make informed decisions."
+  # A brief profile/summary about you
+  summary: |
+    Data-driven professional with expertise in business operations, data analysis, and predictive modeling. 
+    Passionate about uncovering insights and trends that help businesses make informed decisions and drive growth. 
+    Proficient in SQL, Python, Tableau, and machine learning models for predictive analytics and decision-making.
+
+  # Key Skills Section
   skills:
     - "Python"
     - "SQL"
     - "Tableau"
     - "Power BI"
-    - "Data Analysis"
-    - "Machine Learning"
     - "Excel"
-    - "Business Analytics"
+    - "Machine Learning"
+    - "Data Visualization"
+    - "Business Intelligence"
+    - "Predictive Analytics"
+    - "Operations Management"
+
+  # Education Section
+  education:
+    - institution: "Fanshawe College"
+      degree: "Post-graduate Diploma in Marketing Management"
+      duration: "Sept 2019 – Apr 2020"
+    - institution: "Fleming College"
+      degree: "Post-graduate Diploma in Business Management"
+      duration: "Jan 2019 – Aug 2019"
+    - institution: "University of Mumbai"
+      degree: "Bachelor’s Degree in Accounting"
+      duration: "Jun 2015 – Jul 2018"
+
+  # Work Experience Section
   experience:
     - title: "Senior Operations Analyst"
       company: "Manulife"
@@ -33,8 +57,9 @@ resume:
       start_date: "Feb 2024"
       end_date: "Sep 2025"
       description: |
-        Collaborated with the Data Science team to clean and pre-process data, increasing prediction accuracy by 15%.
-        Designed complex SQL queries to extract and aggregate multiple datasets, improving insight delivery speed.
+        - Collaborated with the Data Science team to clean and pre-process data, improving prediction accuracy by 15%.
+        - Designed complex SQL queries to extract and aggregate multiple datasets, enhancing insight delivery speed.
+        - Conducted exploratory data analysis using Pandas and Numpy, and created interactive dashboards with Tableau and Power BI.
 
     - title: "Data Analyst"
       company: "Cooperators Insurance"
@@ -42,38 +67,73 @@ resume:
       start_date: "Jun 2023"
       end_date: "Feb 2024"
       description: |
-        Automated repetitive data cleaning processes with Python and Excel Macros, reducing backlog by 60%.
-        Analyzed large commercial insurance datasets and deployed insights into Tableau dashboards.
+        - Automated repetitive data cleaning processes using Python and Excel Macros, reducing backlog by 60%.
+        - Extracted and aggregated data from multiple systems (AS400, SAP), enhancing reporting efficiency.
+        - Visualized commercial insurance datasets and business insights through Tableau dashboards.
 
-# Projects
-projects:
-  - title: "Telco Customer Churn Analysis"
-    description: |
-      Analyzed customer records to identify churn drivers. Built a TensorFlow model with 80% accuracy to predict customer churn.
-    technologies: 
-      - "Python"
-      - "TensorFlow"
-      - "Seaborn"
-      - "Matplotlib"
+    - title: "Insurance Advisor"
+      company: "Cooperators Insurance"
+      location: "Peterborough, ON"
+      start_date: "Jun 2022"
+      end_date: "Jun 2023"
+      description: |
+        - Provided tailored insurance advice to clients based on their unique needs.
+        - Managed sales tracking and referrals through Salesforce and Excel.
+        - Assisted with the migration of legacy systems to Salesforce.
 
-  - title: "Credit Risk Prediction Model"
-    description: |
-      Built multiple machine learning models (Random Forest, XGBoost, Decision Trees) to predict applicant risk.
-    technologies: 
-      - "Python"
-      - "Scikit-learn"
-      - "Pandas"
-      - "Matplotlib"
+    - title: "Financial Service Representative"
+      company: "Momentum Financial"
+      location: "Peterborough, ON"
+      start_date: "Jun 2021"
+      end_date: "Jun 2022"
+      description: |
+        - Delivered outstanding customer service with a customer satisfaction rate of 90% or higher.
+        - Conducted financial audits and maintained accurate loan, cheque, and cash-in-hand records.
+
+  # Projects Section
+  projects:
+    - title: "Telco Customer Churn Analysis"
+      description: |
+        Analyzed customer records to identify churn drivers and high-risk segments. Developed a TensorFlow model to predict churn with 80% accuracy. Visualized insights using Seaborn and Matplotlib.
+      technologies:
+        - "Python"
+        - "Numpy"
+        - "TensorFlow"
+        - "Seaborn"
+        - "Matplotlib"
+
+    - title: "Credit Risk Prediction Model"
+      description: |
+        Built machine learning models (Random Forest, XGBoost) to predict the credit risk of loan applicants. Achieved 77% accuracy with Random Forest. Analyzed features and their correlation.
+      technologies:
+        - "Pandas"
+        - "Numpy"
+        - "Scikit-learn"
+        - "Matplotlib"
+        - "Seaborn"
+
+    - title: "Toronto Collision Analysis"
+      description: |
+        Analyzed data from the Toronto Police Service on traffic collisions to identify high-risk zones and vulnerable road users. Presented findings to highlight peak accident hours and areas for improvement.
+      technologies:
+        - "Python"
+        - "SQL"
+        - "Tableau"
 
 # Social Media Links (Optional)
 social_links:
   linkedin: "https://linkedin.com/in/sd1997"
   github: "https://github.com/SarveshDhond"
-  twitter: "https://twitter.com/yourhandle" # Optional, if applicable
+  twitter: "https://twitter.com/yourhandle"  # Optional, remove if not using Twitter
   email: "mailto:sarveshdhond@outlook.com"
 
-# Exclude files/folders
+# Exclude files/folders from the build process
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - LICENSE
+
+# SEO and Meta Tags Plugin (Optional)
+plugins:
+  - jekyll-seo-tag
