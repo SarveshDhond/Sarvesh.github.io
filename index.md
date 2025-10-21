@@ -1,4 +1,5 @@
 layout: default
+
 title: "Sarvesh Dhond | Data Analyst & Operations Specialist"
 
 <div align="center"> <img src="IMG_0841.JPG" alt="Sarvesh Dhond" width="180" style="border-radius:50%; margin-bottom:15px;">
@@ -8,7 +9,6 @@ title: "Sarvesh Dhond | Data Analyst & Operations Specialist"
 🔗 LinkedIn | GitHub
 
 </div>
-
 🧩 About Me
 I started my journey selling insurance but quickly discovered my passion for data — uncovering insights, building models, and automating processes.
 With 5+ years in Finance and Insurance and 3 years as a Data Analyst, I combine analytical thinking with business strategy.
