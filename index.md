@@ -1,27 +1,25 @@
 layout: default
-
 title: "Sarvesh Dhond | Data Analyst & Operations Specialist"
-
 <div align="center"> <img src="IMG_0841.JPG" alt="Sarvesh Dhond" width="180" style="border-radius:50%; margin-bottom:15px;">
-  
 👋 Hi, I'm Sarvesh Dhond
 📍 Toronto, ON • 📧 Email • 📞 1705-930-0496
 🔗 LinkedIn | GitHub
-
 </div>
+
+
 🧩 About Me
 I started my journey selling insurance but quickly discovered my passion for data — uncovering insights, building models, and automating processes.
 With 5+ years in Finance and Insurance and 3 years as a Data Analyst, I combine analytical thinking with business strategy.
 💡 Self-taught in data analytics and machine learning, I specialize in Python, SQL, Tableau, and Power BI to turn raw data into actionable insights.
 
-🎓 Education
 
+🎓 Education
 Fanshawe College – Post-Graduate Diploma in Marketing Management
 Fleming College – Post-Graduate Diploma in Business Management
 University of Mumbai – Bachelor’s Degree in Accounting
 
-💼 Experience
 
+💼 Experience
 Senior Operations Analyst — Manulife, Toronto, ON
 📅 Feb 2024 – Sep 2025
 Partnered with the Data Science team to clean and pre-process data, improving prediction accuracy by 15%.
@@ -51,17 +49,15 @@ Technical Support Specialist — Concentrix, Peterborough, ON
 Delivered remote technical support with 90%+ incident resolution rate.
 Assisted in testing and implementing new technologies.
 
-🧠 Projects
 
+🧠 Projects
 Telco Customer Churn Analysis | Python, NumPy, TensorFlow
 Identified churn drivers from telecom data.
 Built an 80% accuracy TensorFlow model for churn prediction.
 Created visualizations with Seaborn, Matplotlib, and Pandas.
-
 Credit Risk Prediction Model | Pandas, NumPy, Scikit-learn
 Developed Random Forest, XGBoost, and Decision Tree models for credit risk.
 Preprocessed data and achieved 77% accuracy with Random Forest.
-
 Toronto Collision Analysis | Python, SQL
 Analyzed collision data from Toronto Police to identify risk zones.
 Highlighted peak hours and vulnerable road users.
@@ -71,6 +67,8 @@ Produced severity scoring metrics for mitigation insights.
 Languages: Python, MySQL, VBA
 Libraries: Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, TensorFlow
 Tools: Tableau, Power BI, Excel, AS400, Salesforce, SAP, Jupyter Notebook, Google Colab
+
+
 <div align="center">
 ⭐ Passionate about bridging business and data science to create meaningful, data-driven impact.
 </div>
