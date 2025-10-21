@@ -1,97 +1,121 @@
-/* Global styles */
-body {
-    font-family: 'Chakra Petch', sans-serif;
-    color: #f0f0f0;
-    background-color: #121212;
-    margin: 0;
-    padding: 0;
+/* Import Chakra Petch font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&display=swap');
+
+/* Root Styles */
+:root {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --accent-color: #00bcd4;
+  --link-color: #4dd0e1;
+  --card-bg: #1e1e1e;
+  --border-color: #333;
+  --font-family: 'Chakra Petch', sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Layout */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: var(--accent-color);
+  font-weight: 600;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+/* Links */
 a {
-    color: #66ccff;
-    text-decoration: none;
+  color: var(--link-color);
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-/* Header */
-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #1f1f1f;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-    color: #fff;
-}
-
-header p {
-    margin: 5px;
-    color: #bbb;
-}
-
-/* Section and Layout */
+/* Sections */
 section {
-    padding: 20px;
+  margin-bottom: 2.5rem;
 }
 
-h2 {
-    border-bottom: 2px solid #444;
-    padding-bottom: 5px;
-    color: #aaa;
+/* Resume Cards */
+.resume-section {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-h3 {
-    color: #fff;
+.resume-section h3 {
+  margin-top: 0;
 }
 
-/* Content Wrapper */
-.content-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    margin-top: 20px;
+.resume-section ul {
+  padding-left: 1.2rem;
 }
 
-.column {
-    background-color: #1f1f1f;
-    padding: 20px;
-    border-radius: 8px;
+.resume-section li {
+  margin-bottom: 0.5rem;
 }
 
-/* Experience Section */
-.experience ul {
-    padding-left: 20px;
+/* Education, Experience, and Projects */
+.item-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--accent-color);
 }
 
-.experience ul li {
-    list-style-type: disc;
-    margin-bottom: 10px;
+.item-subtitle {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin-bottom: 0.3rem;
 }
 
-/* Projects Section */
-.project ul {
-    padding-left: 20px;
+.item-duration {
+  font-size: 0.85rem;
+  color: #999;
+  font-style: italic;
 }
 
-.project ul li {
-    list-style-type: square;
-    margin-bottom: 10px;
+/* Skills */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
 }
 
-/* Technologies Section */
-.technologies p {
-    margin-bottom: 10px;
+.skills-list span {
+  background-color: #2a2a2a;
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
 }
 
-.technologies span {
-    background-color: #333;
-    padding: 5px 10px;
-    border-radius: 5px;
-    color: #ddd;
-    margin-right: 10px;
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .skills-list {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
 }
+
