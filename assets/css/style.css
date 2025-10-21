@@ -3,32 +3,33 @@
 
 /* Root Styles */
 :root {
-  --bg-color: #121212;
-  --text-color: #e0e0e0;
-  --accent-color: #00bcd4;
-  --link-color: #4dd0e1;
-  --card-bg: #1e1e1e;
-  --border-color: #333;
-  --font-family: 'Chakra Petch', sans-serif;
+  --bg-color: #121212;            /* Dark background */
+  --text-color: #e0e0e0;           /* Light text */
+  --accent-color: #00bcd4;         /* Accent color for headings */
+  --link-color: #4dd0e1;           /* Link color */
+  --card-bg: #1e1e1e;              /* Background for resume sections */
+  --border-color: #333;            /* Border color */
+  --font-family: 'Chakra Petch', sans-serif; /* Font */
 }
 
+/* Apply Chakra Petch font globally */
 body {
+  font-family: var(--font-family);
   margin: 0;
   padding: 0;
-  font-family: var(--font-family);
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  background-color: var(--bg-color);  /* Dark background */
+  color: var(--text-color);            /* Light text */
   line-height: 1.6;
 }
 
-/* Layout */
+/* Container for the resume */
 .container {
   max-width: 960px;
   margin: 0 auto;
   padding: 2rem;
 }
 
-/* Headings */
+/* Heading styles */
 h1, h2, h3, h4 {
   color: var(--accent-color);
   font-weight: 600;
@@ -37,7 +38,7 @@ h1, h2, h3, h4 {
   margin-top: 2rem;
 }
 
-/* Links */
+/* Link styles */
 a {
   color: var(--link-color);
   text-decoration: none;
@@ -47,12 +48,12 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Sections */
+/* Section Styling */
 section {
   margin-bottom: 2.5rem;
 }
 
-/* Resume Cards */
+/* Resume Sections (cards) */
 .resume-section {
   background-color: var(--card-bg);
   border: 1px solid var(--border-color);
@@ -73,7 +74,7 @@ section {
   margin-bottom: 0.5rem;
 }
 
-/* Education, Experience, and Projects */
+/* Education, Experience, and Project Titles */
 .item-title {
   font-size: 1.2rem;
   font-weight: 600;
@@ -92,7 +93,7 @@ section {
   font-style: italic;
 }
 
-/* Skills */
+/* Skills List */
 .skills-list {
   display: flex;
   flex-wrap: wrap;
@@ -107,7 +108,7 @@ section {
   font-size: 0.85rem;
 }
 
-/* Responsive */
+/* Responsive Design */
 @media (max-width: 768px) {
   .container {
     padding: 1rem;
