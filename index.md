@@ -1,7 +1,7 @@
 layout: default
 title: "Sarvesh Dhond | Data Analyst & Operations Specialist"
 
-<div align="center"> <img src="profile.jpg" alt="Sarvesh Dhond" width="180" style="border-radius:50%; margin-bottom:15px;">
+<div align="center"> <img src="IMG_0841.JPG" alt="Sarvesh Dhond" width="180" style="border-radius:50%; margin-bottom:15px;">
   
 👋 Hi, I'm Sarvesh Dhond
 📍 Toronto, ON • 📧 Email • 📞 1705-930-0496
