@@ -1,3 +1,12 @@
-title: "Sarvesh Dhond | Portfolio"
-description: "Data Analyst & Operations Specialist"
-theme: null
+title: Sarvesh Dhond - Resume
+email: sarveshdhond@outlook.com
+description: "Sarvesh Dhond's Resume - Data Analyst and Operations Expert"
+baseurl: "/"
+url: "https://yourusername.github.io"  # Replace 'yourusername' with your GitHub username
+github_repo: "SarveshDhond"
+theme: jekyll-theme-slate # You can choose a Jekyll theme that works best with dark mode
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
