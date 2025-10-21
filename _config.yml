@@ -1,20 +1,79 @@
+# Basic Site Settings
 title: "Sarvesh Dhond"
-description: "Resume of Sarvesh Dhond - Data Analyst & Business Operations Expert"
+email: "sarveshdhond@outlook.com"
+description: "Resume of Sarvesh Dhond - Data Analyst & Operations Expert"
 url: "https://sarveshdhond.github.io"  # Replace with your actual GitHub Pages URL
 baseurl: "" # Keep empty if deploying to username.github.io
-theme: jekyll-theme-minimal
 
-# Optional - your social links
+# Author and contact details
+author:
+  name: "Sarvesh Dhond"
+  email: "sarveshdhond@outlook.com"
+  location: "Toronto, ON"
+  linkedin: "https://linkedin.com/in/sd1997"
+  github: "https://github.com/SarveshDhond"
+
+# Resume Settings
+resume:
+  title: "Data Analyst & Business Operations Expert"
+  summary: "Data-driven analyst with expertise in operations, data analysis, and predictive models. Passionate about uncovering trends and helping businesses make informed decisions."
+  skills:
+    - "Python"
+    - "SQL"
+    - "Tableau"
+    - "Power BI"
+    - "Data Analysis"
+    - "Machine Learning"
+    - "Excel"
+    - "Business Analytics"
+  experience:
+    - title: "Senior Operations Analyst"
+      company: "Manulife"
+      location: "Toronto, ON"
+      start_date: "Feb 2024"
+      end_date: "Sep 2025"
+      description: |
+        Collaborated with the Data Science team to clean and pre-process data, increasing prediction accuracy by 15%.
+        Designed complex SQL queries to extract and aggregate multiple datasets, improving insight delivery speed.
+
+    - title: "Data Analyst"
+      company: "Cooperators Insurance"
+      location: "Toronto, ON"
+      start_date: "Jun 2023"
+      end_date: "Feb 2024"
+      description: |
+        Automated repetitive data cleaning processes with Python and Excel Macros, reducing backlog by 60%.
+        Analyzed large commercial insurance datasets and deployed insights into Tableau dashboards.
+
+# Projects
+projects:
+  - title: "Telco Customer Churn Analysis"
+    description: |
+      Analyzed customer records to identify churn drivers. Built a TensorFlow model with 80% accuracy to predict customer churn.
+    technologies: 
+      - "Python"
+      - "TensorFlow"
+      - "Seaborn"
+      - "Matplotlib"
+
+  - title: "Credit Risk Prediction Model"
+    description: |
+      Built multiple machine learning models (Random Forest, XGBoost, Decision Trees) to predict applicant risk.
+    technologies: 
+      - "Python"
+      - "Scikit-learn"
+      - "Pandas"
+      - "Matplotlib"
+
+# Social Media Links (Optional)
 social_links:
-  github: SarveshDhond
-  linkedin: sd1997
-  email: sarveshdhond@outlook.com
+  linkedin: "https://linkedin.com/in/sd1997"
+  github: "https://github.com/SarveshDhond"
+  twitter: "https://twitter.com/yourhandle" # Optional, if applicable
+  email: "mailto:sarveshdhond@outlook.com"
 
-# Exclude these from the site build
+# Exclude files/folders
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-
-plugins:
-  - jekyll-seo-tag
