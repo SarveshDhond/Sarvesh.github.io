@@ -1,12 +1,12 @@
 # Basic Site Settings
-title: "Sarvesh Dhond"
+title: ""
 email: "sarveshdhond@outlook.com"
 description: "Data Analyst & Business Operations Expert"
 url: "https://sarveshdhond.github.io"  # Replace with your actual GitHub Pages URL
 baseurl: ""  # Leave empty for username.github.io
 
 # Author Details
-author:
+author: 
   name: ""
   title: "Data Analyst & Business Operations Expert"
   email: "sarveshdhond@outlook.com"
