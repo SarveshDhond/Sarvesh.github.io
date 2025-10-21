@@ -1,38 +1,36 @@
 # Basic Site Settings
 title: "Sarvesh Dhond"
 email: "sarveshdhond@outlook.com"
-description: "Data Analyst & Business Operations Expert"
+description: "Data Scientist and Analyst"
 url: "https://sarveshdhond.github.io"  # Replace with your actual GitHub Pages URL
 baseurl: ""  # Leave empty for username.github.io
 
 # Author Details
 author: 
   name: "Sarvesh Dhond"
-  title: "Data Analyst & Business Operations Expert"
+  title: "Data Scientist and Analyst"
   email: "sarveshdhond@outlook.com"
   location: "Toronto, ON"
   linkedin: "https://linkedin.com/in/sd1997"
   github: "https://github.com/SarveshDhond"
-  twitter: "https://twitter.com/yourhandle"  # Optional, remove if not using Twitter
-  personal_website: "https://sarveshdhond.com"  # Optional, remove if not using a personal website
+  personal_website: "https://sarveshdhond.carrd.co"  # Optional, remove if not using a personal website
 
 # Resume Information
 resume:
   # A brief profile/summary about you
   summary: |
-    I am a data-driven professional with expertise in business operations, data analysis, and machine learning. I specialize in transforming complex datasets into actionable insights that drive business strategies. My experience spans across predictive modeling, SQL, Python programming, and visualizing data with Tableau and Power BI. I’m passionate about identifying trends and creating data-driven solutions that optimize decision-making processes.
+    I am a data-driven professional with expertise in operations, data analysis, and machine learning. I specialize in transforming complex datasets into actionable insights that drive business strategies. My experience spans across predictive modeling, SQL, Python programming, and visualizing data with Tableau and Power BI. I’m passionate about identifying trends and creating data driven solutions that optimize decision making processes.
 
   # Key Skills Section
   skills:
     - "Python (Pandas, Numpy, TensorFlow)"
     - "SQL (MySQL, PostgreSQL)"
     - "Data Visualization (Tableau, Power BI)"
-    - "Machine Learning (Scikit-learn, XGBoost)"
+    - "Machine Learning (Scikit-learn, Tensorflow)"
     - "Predictive Analytics & Data Science"
     - "Business Intelligence & Reporting"
     - "Data Cleansing & Preprocessing"
-    - "Excel (Advanced Functions, VBA)"
-    - "Data Engineering (ETL processes)"
+    - "Excel (Advanced Functions, VBA, Power Query)"
 
   # Education Section
   education:
@@ -48,7 +46,7 @@ resume:
       duration: "Jan 2019 – Aug 2019"
       description: |
         Focused on business strategy, operations management, and financial analysis. 
-        Developed hands-on experience in project management, team leadership, and business performance optimization.
+        Developed hands-on experience in project management and business performance optimization.
 
     - institution: "University of Mumbai"
       degree: "Bachelor’s Degree in Accounting"
@@ -165,7 +163,6 @@ resume:
 social_links:
   linkedin: "https://linkedin.com/in/sd1997"
   github: "https://github.com/SarveshDhond"
-  twitter: "https://twitter.com/yourhandle"  # Optional, remove if not using Twitter
   email: "mailto:sarveshdhond@outlook.com"
 
 # Exclude files/folders from the build process
