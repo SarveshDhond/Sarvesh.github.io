@@ -1,1 +1,8 @@
+title: "Sarvesh Dhond | Data Analyst & Finance Professional"
+description: "Portfolio and Resume of Sarvesh Dhond"
+theme: null
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
